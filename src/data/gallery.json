@@ -1,0 +1,30 @@
+[
+  {
+    "id": "evening-table",
+    "event": "Игровой вечер",
+    "date": null,
+    "dateLabel": "Фото из архива клуба",
+    "photos": [
+      {
+        "src": "/uploads/events/event-01/photo-01.webp",
+        "thumbnail": "/uploads/events/event-01/photo-01-thumb.webp",
+        "alt": "Игровые атрибуты на столе: карточная игра, маска и номера игроков",
+        "caption": "Каждое место за столом — новая история."
+      }
+    ]
+  },
+  {
+    "id": "club-meeting",
+    "event": "Встреча клуба",
+    "date": null,
+    "dateLabel": "Фото из архива клуба",
+    "photos": [
+      {
+        "src": "/uploads/events/event-02/photo-01.webp",
+        "thumbnail": "/uploads/events/event-02/photo-01-thumb.webp",
+        "alt": "Участники клуба собрались за большим столом",
+        "caption": "В игре соперники, после игры — одна команда."
+      }
+    ]
+  }
+]
