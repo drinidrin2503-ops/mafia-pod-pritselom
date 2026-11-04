@@ -271,6 +271,24 @@ img { display: block; max-width: 100%; }
 .quotes-empty h2 { margin: 0 0 8px; font: 500 25px var(--display); text-transform: uppercase; }
 .quotes-empty p { margin: 0; color: #88827b; font-size: 11px; }
 .quotes-total { margin: 18px 0 0; color: #6e6963; font: 8px var(--mono); letter-spacing: .12em; text-align: right; }
+.information-content { padding-top: 56px; }
+.information-section-heading { margin-bottom: 24px; }
+.information-section-heading h2 { margin: 13px 0 0; font: 500 clamp(35px,4.5vw,53px)/1.08 var(--display); text-transform: uppercase; }
+.information-section-heading__description { max-width: 640px; margin: 13px 0 0; color: #97918a; font-size: 12px; line-height: 1.8; }
+.information-rules { margin-top: 76px; }
+.address-card { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 12px 24px; max-width: 850px; padding: 27px 30px; border: 1px solid rgba(255,255,255,.14); background: linear-gradient(110deg,#161412,#100f0e 70%,#160e0e); }
+.address-card__label { grid-column: 1/-1; color: #a7a099; font: 8px var(--mono); letter-spacing: .14em; }
+.address-card__text { margin: 0; color: #f1efec; font: 500 clamp(25px,4vw,40px)/1.2 var(--display); overflow-wrap: anywhere; }
+.address-card .button { grid-column: 2; grid-row: 2; min-height: 45px; white-space: nowrap; cursor: pointer; }
+.address-card__status { grid-column: 1/-1; min-height: 1em; color: #c5c1bb; font-size: 10px; line-height: 1.6; }
+.rules-document { max-width: 850px; border: 1px solid rgba(255,255,255,.12); background: linear-gradient(145deg,#141312,#0e0e0d 60%); }
+.rules-document__title { margin: 0; padding: 23px 29px; border-bottom: 1px solid rgba(223,32,43,.4); color: #eeeae5; font: 500 17px/1.5 var(--display); letter-spacing: .04em; }
+.rules-document__body { padding: 12px 29px 26px; }
+.rules-document__heading { margin: 26px 0 11px; padding: 0 0 9px; border-bottom: 1px solid rgba(255,255,255,.12); color: #f2efeb; font: 500 16px/1.5 var(--display); letter-spacing: .025em; overflow-wrap: anywhere; }
+.rules-document__heading:first-child { margin-top: 13px; }
+.rules-document__paragraph { margin: 8px 0; color: #c0bbb4; font-size: 12px; line-height: 1.9; overflow-wrap: anywhere; }
+.rules-document__paragraph--warning { color: #f1d2d2; }
+.rules-document__gap { height: 9px; }
 .not-found { display: flex; min-height: 60vh; flex-direction: column; align-items: flex-start; justify-content: center; width: min(1200px,calc(100% - 112px)); margin: auto; }
 .not-found h1 { max-width: 700px; margin: 20px 0 28px; font: 500 clamp(48px,7vw,80px)/1 var(--display); text-transform: uppercase; }
 
@@ -355,6 +373,7 @@ img { display: block; max-width: 100%; }
   .inner-page { padding-bottom: 70px; }
   .page-hero { min-height: 350px; padding: 75px 0 42px; }
   .page-hero h1 { font-size: clamp(64px,16vw,86px); }
+  .information-page .page-hero h1 { font-size: clamp(44px,13vw,58px); letter-spacing: -.04em; }
   .page-hero__copy > p:last-child { max-width: 340px; font-size: 11px; }
   .page-hero__index { position: absolute; top: 12px; right: 5px; bottom: auto; width: 56px; height: 56px; font-size: 7px; }
   .page-hero__index strong { font-size: 14px; }
@@ -406,6 +425,16 @@ img { display: block; max-width: 100%; }
   .quote-grid { grid-template-columns: 1fr; }
   .quote-card { min-height: 240px; padding: 20px; }
   .quote-card blockquote { font-size: 19px; }
+  .information-content { padding-top: 36px; }
+  .information-rules { margin-top: 49px; }
+  .address-card { grid-template-columns: 1fr; gap: 10px; padding: 20px; }
+  .address-card__label, .address-card__status, .address-card .button { grid-column: 1; }
+  .address-card .button { grid-row: auto; justify-self: start; margin-top: 5px; }
+  .address-card__text { font-size: clamp(24px,7vw,34px); }
+  .rules-document__title { padding: 18px 18px; font-size: 15px; }
+  .rules-document__body { padding: 7px 18px 20px; }
+  .rules-document__heading { margin-top: 22px; font-size: 15px; }
+  .rules-document__paragraph { font-size: 11px; line-height: 1.85; }
   .not-found { width: calc(100% - 40px); }
 }
 @media (prefers-reduced-motion: reduce) {

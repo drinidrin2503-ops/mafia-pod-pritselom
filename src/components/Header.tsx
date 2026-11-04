@@ -7,6 +7,7 @@ const links = [
   { to: '/gallery', label: 'Галерея' },
   { to: '/leaderboard', label: 'Рейтинг' },
   { to: '/quotes', label: 'Цитатник' },
+  { to: '/information', label: 'Важная информация' },
 ]
 
 export default function Header() {

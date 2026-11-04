@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import Leaderboard from './pages/Leaderboard'
 import Quotes from './pages/Quotes'
+import Information from './pages/Information'
 
 function PageReset() {
   const { pathname } = useLocation()
@@ -58,6 +59,7 @@ export default function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/quotes" element={<Quotes />} />
+        <Route path="/information" element={<Information />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
